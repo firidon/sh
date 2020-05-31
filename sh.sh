@@ -7,4 +7,4 @@ read -p $'\n\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Type your termux name: \e[0m' 
 
 echo "figlet $name" >> $PREFIX/etc/bash.bashrc
 
-printf "[*] Now open new session & enjoy"
+printf "[*] Now open new session & enjoy"; exit 1;
